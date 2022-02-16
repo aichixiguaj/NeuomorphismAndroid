@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/llContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="150dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:background="@null"
+            android:text="按下"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="90dp"
+            android:layout_height="180dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:text="平面"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:clipChildren="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@null"
+            android:tag="btn3"
+            android:text="凸出"
+            android:textColor="@android:color/black" />
+
+        <Button
+            android:id="@+id/btn4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="50dp"
+            android:background="@null"
+            android:tag="btn3"
+            android:text="凹陷"
+            android:textColor="@android:color/black" />
+
+    </LinearLayout>
+
+    <com.example.neuomorphism.NeumorphicFrameLayout
+        android:id="@+id/neumorphicContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null" />
+
+    </com.example.neuomorphism.NeumorphicFrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,3 @@
+rootProject.name = "Neuomorphism"
+include ':neuomorphism'
+include ':app'
